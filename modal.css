@@ -1,0 +1,25 @@
+#overlay {
+    background: #000;
+    opacity: 0.8;
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 50;
+}
+
+.modal {
+    position: absolute;
+    z-index: 100;
+    top: 25%;
+    left: 50%;
+    height: 350px;
+    width: 250px;
+    display: none;
+}
+
+.btn {
+    font-size: 1em;
+    padding: 0.2em 0.2em;
+    margin: 0;
+}
